@@ -15,13 +15,13 @@ public class MembroClubeLeitura implements Serializable {
 	private String nome;
 	@Column(nullable=false)
 	private String dataNascimento;
-	@Column(nullable=false, length=10)
+	@Column(nullable=false, length=30)
 	private String sexo;
 	@Column(nullable=false, length=100)
 	private String endereco;
-	@Column(nullable=false, length=20)
+	@Column(nullable=false, length=30)
 	private String generoFavorito;
-	@Column (nullable=false, length=20)
+	@Column (nullable=false, length=30)
 	private String contato;
 	@Column(nullable=false, length=100)
 	private String email;
